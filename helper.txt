@@ -4,9 +4,9 @@
                 </button>
               </a>   
               
- <h2 style="color: #2e5cb7; margin:0px;"> Treehouse Festival: Day One </h2>
- <button style="background-color: #00a4bd; color:white;  border-radius:5px; font-size:16px; font-weight: bold; padding:15px 50px; border:0px; ">
-                  Register Today
+ <td align="center" style="text-align: center; padding: 20px 20px; width:100%;">
+    <h2 style="color: #2e5cb7; margin:0px;"> Are you ready to start a new learning journey? Join #100DaysOfCode. </h2>
+ <button style="background-color: #00a4bd; color:white;  border-radius:5px; font-size:16px; font-weight: bold; padding:15px 50px; border:0px; ">Register Today
                 </button>
 <p style="margin: 0px; color: #576467; line-height:30px;">All registrants to the Treehouse Festival will automatically be entered to win either three months of Techdegree or one year of Adobe Creative Cloud. Are you a current student who likes free stuff? Make sure you're registered for the Festival to be entered in today's giveaway!
               </p>
