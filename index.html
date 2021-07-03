@@ -10,11 +10,33 @@
     border-collapse: separate;
     border-spacing: 0;
     }
-    
-  body, html {
-    width: 100%;
-  }
+      
+    body, html {
+      width: 100%;
+    }
 
+    @media only screen and (min-width: 960px){
+      
+    }
+    
+    @media only screen and (max-width: 960px){
+      
+    }
+    @media only screen and (max-width: 600px){
+      .left-column{
+        width:100%;
+        text-align: center;
+      }
+      #days-code-img{
+        margin:0 !important;
+      }
+      .right-column{
+        width:100%;
+        text-align: center;
+      }
+    }
+
+  
   </style>
 </head>
 <body style="background: #F9E6FF;">
@@ -268,11 +290,11 @@
               <table class="left-column" align="left">
                 <tr>
                   <td>
-                    <img src="img/days-code.png" width="175" height="195" alt="100 days of code image" style="padding: 10px 0px; margin-left: 30px;">
+                    <img src="img/days-code.png" id="days-code-img" width="175" height="195" alt="100 days of code image" style="padding: 10px 0px; margin-left: 30px;">
                   </td>
                   </tr>
                 </table>
-                <table>
+                <table class="right-column">
                   <tr>
                   <td style="padding:0px 35px 35px;">
                     <p style="margin: 0px; color: #576467; line-height:30px; padding:10px 5px 15px; ">       	
