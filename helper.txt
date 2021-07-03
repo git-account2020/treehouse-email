@@ -10,3 +10,7 @@
                 </button>
 <p style="margin: 0px; color: #576467; line-height:30px;">All registrants to the Treehouse Festival will automatically be entered to win either three months of Techdegree or one year of Adobe Creative Cloud. Are you a current student who likes free stuff? Make sure you're registered for the Festival to be entered in today's giveaway!
               </p>
+
+<td style="padding:0px 20px;">
+                    <img src="img/adobe-logo.png" alt="Adobe XD Logo" style="width:110px; height:23px;">
+                  </td>

@@ -62,6 +62,25 @@
       .date-schedule-table .right-column p{
         margin:0 !important;
       }
+
+      .this-event img{
+        width: 177px !important;
+        height: 54px !important;
+        padding-bottom:40px;
+      }
+
+      #tribaja{
+        padding-bottom:30px;
+      }
+      #adobe{
+        width: 217px !important;
+        height: 47px !important;
+      }
+      
+      #chicktech{
+        padding-bottom: 0px;
+      }
+
     }
 
   
@@ -361,7 +380,7 @@
     <!--This event Row-->
     <tr>
       <td style="background-color: #F0F5F6; padding:50px 0px;">
-        <table width="100%" >
+        <table width="100%" class="this-event" >
           <tr>
             <td align="center" style="text-align: center; padding: 0px 20px 20px; width:100%;">
               <h2 style="color: #2e5cb7; margin:0px 0px 10px 0px;"> This event is proudly supported by </h2>
@@ -369,23 +388,35 @@
           </tr>
           <tr>
             <td>
-              <table class="supporter-table" width="100%">
+              <table class="left-column" align="left" width="25%25">
                 <tr>
                   <td style="padding:0px 20px;">
-                    <img src="img/tribaja-logo.png" alt="Tribaja Logo" style="width:90px; height:28px;">
+                    <img src="img/tribaja-logo.png" id="tribaja" alt="Tribaja Logo" style="width:90px; height:28px;">
                   </td>
-                  <td style="padding:0px 20px;">
-                    <img src="img/adobe-logo.png" alt="Adobe XD Logo" style="width:110px; height:23px;">
-                  </td>
-                  <td style="padding:0px 20px;">
-                    <img src="img/pdxwit-logo.png" alt="PDXWIT Logo" style="width:90px; height:28px;">
-                  </td>
-                  <td style="padding:0px 20px;">
-                    <img src="img/chicktech-logo.png" alt="ChickTech Logo" style="width:90px; height:28px;">
-                  </td>
-                  <td></td>
                 </tr>
               </table>
+              <table class="left-column" align="left" width="25%">
+                <tr>
+                  <td style="padding:0px 20px;">
+                    <img src="img/adobe-logo.png" id="adobe" alt="Adobe Logo" style="width:90px; height:28px;">
+                  </td>
+                </tr>
+              </table>
+              <table class="left-column" align="left" width="25%">
+                <tr>
+                  <td style="padding:0px 20px;">
+                    <img src="img/pdxwit-logo.png" id="pdxwit" alt="PDXWIT Logo" style="width:90px; height:28px;">
+                  </td>
+                </tr>
+              </table>
+              <table class="left-column" align="left" width="25%">
+                <tr>
+                  <td style="padding:0px 20px;">
+                    <img src="img/chicktech-logo.png" id="chicktech" alt="Chick Tech Logo" style="width:90px; height:28px;">
+                  </td>
+                </tr>
+              </table>
+                  
             </td>
           </tr>
         </table>
